@@ -38,7 +38,6 @@
     "miniget": "^4.2.2",
     "netscape-cookies-parser": "^1.0.2",
     "node-fetch": "^2.6.7",
-    "tiktok-signature": "^1.7.3",
-    "typescript": "^4.5.5"
+    "tiktok-signature": "^1.7.3"
   }
 }
