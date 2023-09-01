@@ -2,7 +2,7 @@
   "name": "tiktok-scraper-serverles",
   "version": "1.4.1",
   "description": "A scraper for tiktok videos, users and more",
-  "main": "src/main.ts",
+  "main": "dist/main.js",
   "scripts": {
     "start": "tsc && node dist/main.js",
     "build:docs": "npx typedoc src/main.ts",
