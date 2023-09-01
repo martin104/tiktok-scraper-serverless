@@ -2,7 +2,7 @@ import * as cheerio from "cheerio";
 import miniget from "miniget";
 import fetch, { RequestInit } from "node-fetch";
 import { createWriteStream, existsSync, mkdirSync, unlinkSync } from "node:fs";
-import * as puppeteer from "puppeteer";
+import * as chrome from "chrome-aws-lambda";
 import http from "node:http";
 import https from "node:https";
 import { exit } from "node:process";
