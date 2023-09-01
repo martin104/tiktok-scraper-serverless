@@ -114,7 +114,7 @@ export class TTScraper {
    */
 
   private async requestWithPuppeteer(url: string) {
-    const browser = await puppeteer.launch({
+    const browser = await chrome.puppeteer.launch({
       headless: true,
       args: ["--no-sandbox", "--disable-setuid-sandbox"],
     });
